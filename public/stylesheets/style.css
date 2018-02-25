@@ -1,0 +1,55 @@
+
+body {
+    background-color: #e8f0f7;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Oswald' !important;
+}
+
+p {
+    font-family: 'Muli' !important;
+    line-height: 1.8;
+}
+
+hr {
+    border-top: 3px solid red !important;
+    width: 100px;
+}
+
+nav {
+    padding: 1em;
+}
+
+.navbar-default {
+    border: none !important;
+}
+
+.navbar-default li {
+    color: #000;
+    font-family: 'Oswald';
+    font-size: 16px;
+}
+
+#doge-logo {
+    width: 4em;
+}
+
+.intro,
+.info {
+    margin: 10em 0;
+}
+
+.btn-primary {
+    margin: 1em 0;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    padding: 1em 5em !important;
+    background-color: #de6a6a !important;
+    color: #fff !important;
+    border: none !important;
+}
