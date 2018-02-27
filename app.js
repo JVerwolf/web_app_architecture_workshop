@@ -4,7 +4,10 @@ let bodyParser = require('body-parser');
 let app = express();
 const PORT = 3000;
 
-app.use(bodyParser.urlencoded({extended: false}));
+// BodyParser is Express middleware. It parses elements out
+// of the request string and adds them to the req object.
+// We don't need this for what we are doing, but these
+// allow you play around with POST requests.
 app.use(bodyParser.json());
 
 // Referece: https://expressjs.com/en/starter/static-files.html

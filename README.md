@@ -1,11 +1,11 @@
 # Static Asset Server Example
 
-Serves the bootstrap workshop page: https://github.com/uvicwebdev/bootstrap-workshop 
+A simple static asset server. Here, we serve the bootstrap workshop page: https://github.com/uvicwebdev/bootstrap-workshop 
 
 ## Installation:
-Get **node**: https://nodejs.org/en/
+Install **node**: https://nodejs.org/en/
 
-Get **npm**: https://www.npmjs.com/
+Install **npm**: https://www.npmjs.com/
 
 From the root of the project directory:
 ```$xslt
