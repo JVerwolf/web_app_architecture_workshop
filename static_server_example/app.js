@@ -13,9 +13,10 @@ app.use(bodyParser.json());
 // Referece: https://expressjs.com/en/starter/static-files.html
 app.use(express.static('public'));
 
-// This defines a resource at "/" for "GET"on our API.
+// This defines a resource at "/" for "GET" on our API.
 app.get('/', (req, res) => {
     res.sendFile(__dirname +  '/index.html');
+    console.log("We just got a GET request at '/' in our API!");
 });
 
 // Tells the Express framework what port to use.

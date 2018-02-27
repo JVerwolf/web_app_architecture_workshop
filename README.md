@@ -7,8 +7,8 @@ Install **node**: https://nodejs.org/en/
 
 Install **npm**: https://www.npmjs.com/
 
-From the root of the project directory:
-```$xslt
+From with the static_server_example/ directory:
+```
 npm install
 npm run devstart
 
